@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Анастасия Киселева](https://up.htmlacademy.ru/htmlcss/36/user/2259485).
-* Наставник: Константин Черепанов https://htmlacademy.ru/profile/ccher.
+* Наставник: [Константин Черепанов] (https://htmlacademy.ru/profile/ccher).
 
 ---
 
