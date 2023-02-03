@@ -5,6 +5,7 @@
     src: url("fonts/ptsans-400.woff2") format("woff2");
     font-display: swap;
 }
+
 @font-face {
     font-family: "PT Sans";
     font-style: normal;
@@ -12,6 +13,7 @@
     src: url("fonts/ptsans-700.woff2")format("woff2");
     font-display: swap;
 }
+
 body {
     font-family: "PT Sans", sans-serif;
     font-size: 22px;
@@ -19,6 +21,7 @@ body {
     color: #000;
     background-color: #ffffff;
 }
+
 /*Pages*/
 .navigation-link {
     font-weight: 700;
@@ -30,6 +33,7 @@ body {
     text-decoration: none;
     text-transform: capitalize;
 }
+
 .service-link {
     font-weight: 700;
     font-size: 20px;
@@ -41,6 +45,7 @@ body {
     text-transform: capitalize;
 
 }
+
 .main-index {
     background-color: #ffffff;
     color: #000;
@@ -48,13 +53,52 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
+
 /*Slogan*/
 .slogan-block {
     text-align: center;
 }
+
 .slogan-text {
     font-family: "PT Sans", sans-serif;
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
+}
+
+/* Advantages*/
+.advantages-list {
+    text-align: center;
+}
+
+.advantages-title {
+    font-family: "PT Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.advantages-item.block1 {
+    color: #ffffff;
+    background-color: #82B3D3;
+}
+
+.advantages-item.block2 {
+    color: #000;
+    background-color: #83B3D31F;
+}
+
+.advantages-item.block3 {
+    color: #000;
+    background-color: #83B3D333;
+}
+
+.advantages-item.block4 {
+    color: #000;
+    background-color: #83B3D31F;
+}
+
+.advantages-item.block5 {
+    color: #ffffff;
+    background-color: #82B3D3;
 }
