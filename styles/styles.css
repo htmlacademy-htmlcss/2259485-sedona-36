@@ -102,3 +102,13 @@ body {
     color: #ffffff;
     background-color: #82B3D3;
 }
+
+.invitation-block {
+    text-align: center;
+}
+.invitation-text {
+    font-family: "PT Sans", sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
