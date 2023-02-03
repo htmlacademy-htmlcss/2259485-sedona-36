@@ -112,3 +112,51 @@ body {
     line-height: 36px;
     text-transform: uppercase;
 }
+/*Services*/
+.services-list {
+    text-align: center;
+}
+.services-name {
+    font-family: "PT Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+.services-item.option1 {
+    color: #000;
+    background-color: #83B3D31F;
+}
+.services-item.option2 {
+    color: #000;
+    background-color: #ffffff;
+}
+.services-item.option3 {
+    color: #000;
+    background-color: #83B3D31F;
+}
+
+.appointment {
+    text-align: center;
+}
+.appointment-title {
+    font-family: "PT Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+/*Footer*/
+.page-footer {
+    background-color: #ffffff;
+}
+.newsletter {
+    text-align: center;
+    color: #ffffff;
+    background-image: url("../images/footer/Subscribe\ .jpg");
+}
+.page-footer-title {
+    font-family: "PT Sans", sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
