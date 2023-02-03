@@ -30,11 +30,11 @@ body {
     text-decoration: none;
     text-transform: capitalize;
 }
-.service-item {
+.service-link {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    text-align: start;
+    text-align: end;
     color: #000;
     background-color: #ffffff;
     text-decoration: none;
@@ -44,7 +44,17 @@ body {
 .main-index {
     background-color: #ffffff;
     color: #000;
-    background-image: url("images/welcome.svg"), url("images/sedona-mountains.jpg");
-    background-size: 100% auto, 100% auto;
-    background-repeat: repeat-y, no-repeat;
+    background-image: url("../images/sedona-mountains.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+/*Slogan*/
+.slogan-block {
+    text-align: center;
+}
+.slogan-text {
+    font-family: "PT Sans", sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
 }
