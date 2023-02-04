@@ -60,7 +60,6 @@ body {
 }
 
 .slogan-text {
-    font-family: "PT Sans", sans-serif;
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
@@ -72,7 +71,6 @@ body {
 }
 
 .advantages-title {
-    font-family: "PT Sans", sans-serif;
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
@@ -107,7 +105,6 @@ body {
     text-align: center;
 }
 .invitation-text {
-    font-family: "PT Sans", sans-serif;
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
@@ -117,7 +114,6 @@ body {
     text-align: center;
 }
 .services-name {
-    font-family: "PT Sans", sans-serif;
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
@@ -139,13 +135,13 @@ body {
     text-align: center;
 }
 .appointment-title {
-    font-family: "PT Sans", sans-serif;
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
 }
 /*Footer*/
 .page-footer {
+    color: #000;
     background-color: #ffffff;
 }
 .newsletter {
@@ -154,9 +150,16 @@ body {
     background-image: url("../images/footer/Subscribe\ .jpg");
 }
 .page-footer-title {
-    font-family: "PT Sans", sans-serif;
     color: #ffffff;
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
+}
+
+.footer-contacts {
+    font-size: 40px;
+    font-weight: 400;
+    color: #000;
+    background-color: #ffffff;
+    text-decoration: none;
 }
