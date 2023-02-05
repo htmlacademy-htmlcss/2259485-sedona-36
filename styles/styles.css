@@ -156,10 +156,16 @@ body {
     text-transform: uppercase;
 }
 
-.footer-contacts {
+.footer-contacts a {
     font-size: 40px;
     font-weight: 400;
     color: #000;
     background-color: #ffffff;
     text-decoration: none;
+}
+
+.inner-header-title {
+  font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
 }
