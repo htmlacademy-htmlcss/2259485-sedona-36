@@ -32,7 +32,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 960px;
+  width: 1200px;
 }
 
 /*Pages*/
@@ -97,7 +97,12 @@ body {
 }
 
 .page-container {
-  width: 960px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-logo {
+  display: block;
   margin: 0 auto;
 }
 
@@ -114,10 +119,15 @@ body {
 
 /* Advantages*/
 .advantages-list {
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
 .advantages-title {
+  display: flex;
+  margin: 0;
+  padding: 0;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
@@ -160,6 +170,10 @@ body {
 
 /*Services*/
 .services-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 
