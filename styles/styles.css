@@ -133,10 +133,12 @@ body {
   text-transform: uppercase;
 }
 
-.advantages-content {
+.advantages-list {
   display: flex;
-  justify-content: space-between;
+  width: 1200px;
 }
+
+
 
 .advantages-item.block1 {
   color: #ffffff;
