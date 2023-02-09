@@ -1,0 +1,367 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000;
+  background-color: #ffffff;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+/*Pages*/
+
+.page-header {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  width: 507px;
+  margin-left: 70px;
+}
+
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+
+.service {
+  display: flex;
+  width: 268px;
+}
+
+.service-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: end;
+  color: #000;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-right: 70px;
+}
+
+.service-list {
+  width: 268px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.main-index {
+  background-color: #ffffff;
+  color: #000;
+  background-image: url("../images/sedona-mountains.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-logo {
+  display: block;
+  margin: 0 auto;
+}
+
+/*Slogan*/
+.slogan-block {
+  text-align: center;
+}
+
+.slogan-text {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+/* Advantages*/
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.advantages-title {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-list {
+  display: flex;
+  width: 1200px;
+}
+
+
+
+.advantages-item.block1 {
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.advantages-item.block2 {
+  width: 400px;
+  height: 385px;
+  color: #000;
+  background-color: #83B3D31F;
+}
+
+.advantages-item.block3 {
+  width: 400px;
+  height: 385px;
+  color: #000;
+  background-color: #83B3D333;
+}
+
+.advantages-item.block4 {
+  width: 400px;
+  height: 385px;
+  color: #000;
+  background-color: #83B3D31F;
+}
+
+.advantages-item.block5 {
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.invitation-block {
+  text-align: center;
+}
+
+.invitation-text {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+/*Services*/
+.services-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.services-name {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.services-item.option1 {
+  width: 400px;
+  height: 385px;
+  color: #000;
+  background-color: #83B3D31F;
+}
+
+.services-item.option2 {
+  width: 400px;
+  height: 385px;
+  color: #000;
+  background-color: #ffffff;
+}
+
+.services-item.option3 {
+  width: 400px;
+  height: 385px;
+  color: #000;
+  background-color: #83B3D31F;
+}
+
+.appointment {
+  text-align: center;
+}
+
+.appointment-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+/*Footer*/
+.page-footer {
+  color: #000;
+  background-color: #ffffff;
+}
+
+
+.newsletter {
+  width: 1200px;
+  text-align: center;
+  color: #ffffff;
+  background-image: url("../images/footer/subscribe\ .jpg");
+}
+
+.page-footer-title {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.page-footer-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-social-list {
+  width: 142px;
+  height: 40px;
+  margin-left: 70px;
+}
+
+.footer-contacts a {
+  width: 331px;
+  height: 40px;
+  margin-right: 194px;
+  margin-left: 195px;
+  font-size: 40px;
+  font-weight: 400;
+  color: #000;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.logo-htmlacademy {
+  width: 115px;
+  height: 33px;
+  margin-right: 70px;
+}
+
+.inner-header-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.main-inner {
+  color: #ffffff;
+  background-image: url("../images/filter.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+/* Breadcrumbs */
+.bredcrumbs {
+  color: #ffffff;
+}
+
+/* Link */
+.bredcrumbs-link {
+  color: inherit;
+}
+
+.catalog-hotels {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+.catalog-filter-group {
+  width: 151px;
+  height: 157px;
+  margin-left: 70px;
+
+}
+
+.price {
+  width: 228px;
+  height: 160px;
+  margin-left: 167px;
+}
+
+/* Title */
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+/* Label */
+.control-label {
+  font-weight: 700;
+}
+
+.search-result {
+  color: #000;
+  background-color: #ffffff;
+}
+
+.hotel-card-link {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Link */
+.pagination {
+  background-color: #ffffff;
+}
+
+.pagination-link {
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-decoration: none;
+  line-height: 36px;
+  font-weight: 700;
+}
+.pagination-current {
+  color: #000;
+  background-color: #F2F2F2;
+}
+.pagination-link span {
+  color: #000;
+  background-color: #ffffff;
+}
